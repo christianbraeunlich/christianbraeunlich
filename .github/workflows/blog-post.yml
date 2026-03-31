@@ -1,7 +1,8 @@
 name: Latest blog post workflow
 on:
   schedule:
-    - cron: '55 22 * * *'
+    - cron: '0 9 * * *'
+      timezone: 'Europe/Berlin'
   workflow_dispatch:
 
 jobs:
